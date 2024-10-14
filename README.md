@@ -8,7 +8,7 @@ You can view the live portfolio [here](https://sarasouza.github.io/).
 
 ## **Purpose of this Repository**
 
-This repository contains the source code for my portfolio website. It is meant to demonstrate how I structured and built the project, using clean and organized code with modern web development practices. Feel free to explore the code, learn from it, or even contribute if you'd like!
+This repository contains the source code for my portfolio website. It is meant to demonstrate how I structured and built the project, using clean and organized code with modern web development practices.
 
 ## **How It Was Built**
 
@@ -23,8 +23,6 @@ The portfolio was developed using the following technologies:
 ## **How to View the Portfolio**
 
 To check out the portfolio, you can simply visit the [live website](https://sarasouza.github.io/).
-
-Alternatively, if you'd like to explore the code or run the project locally, follow the steps below.
 
 ## **Code Structure**
 
