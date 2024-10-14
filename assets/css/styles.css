@@ -1,0 +1,384 @@
+/* Geral */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    background-color: #333; 
+    color: white; 
+    padding: 40px 0;
+    text-align: center;
+}
+
+.header__container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__profile-photo {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header__title {
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.header__subtitle {
+    font-size: 1.2rem;
+    color: #aaa;
+    margin-top: 10px;
+}
+
+/* Navegação */
+.header__nav {
+    margin-top: 30px;
+}
+
+.header__nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.header__nav-item {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.header__nav-link {
+    color: white;
+    background-color: #6c757d;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.header__nav-link:hover {
+    background-color: #5a6268;
+    transform: scale(1.05);
+}
+
+.header__nav-link--active {
+    background-color: #495057;
+    font-weight: bold;
+}
+
+.header__nav-link:active {
+    transform: translateY(2px);
+}
+
+/* Seção Intro */
+.intro {
+    background-color: white;
+    padding: 40px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.intro__container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.intro__title {
+    font-size: 2 rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.intro__subtitle {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.intro__text {
+    font-size: 1rem;
+    margin: 20px 0;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Botão da Intro */
+.btn-one {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white; /* Cor do texto branco */
+    background-color: #495057; /* Fundo cinza escuro */
+    border-radius: 5px;
+    position: relative;
+    transition: all 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.btn-one span {
+    position: relative;
+    z-index: 2; /* Garante que o texto fique visível sobre o efeito */
+    transition: all 0.3s;
+}
+
+.btn-one::before, .btn-one::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+.btn-one::before {
+    opacity: 0;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+    transform: scale(0.1, 1);
+}
+
+.btn-one:hover::before {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+.btn-one::after {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-one:hover::after {
+    opacity: 0;
+    transform: scale(0.1, 1);
+}
+
+.btn-one:hover span {
+    letter-spacing: 2px;
+}
+
+/* Seção About (Linha do Tempo) */
+.about {
+    background-color: white;
+    padding: 60px 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.about__container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about__title {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.about__timeline {
+    list-style: none;
+    padding: 0;
+}
+
+.about__timeline-item {
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+
+.about__timeline-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__timeline-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.about__timeline-title {
+    font-size: 1 rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.about__timeline-period {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 5px;
+}
+
+.about__timeline-description {
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Seção Skills */
+.about__skills-title {
+    font-size: 1.7rem;
+    color: #333;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.about__skills {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.about__skill {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Seção Projetos */
+.about__projects-title {
+    font-size: 1.7rem;
+    color: #333;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.about__projects {
+    list-style: none;
+    padding: 0;
+}
+
+.about__project {
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+
+.about__project-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #28a745;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__project-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.about__project-link {
+    color: #007bff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.about__project-link:hover {
+    text-decoration: underline;
+}
+
+.about__project-description {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Seção Contact */
+.contact-section {
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.contact__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #343a40;
+    margin-bottom: 30px;
+}
+
+.contact__info {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact__info p {
+    font-size: 0.9rem;
+    color: #495057;
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+.contact__info a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact__info a:hover {
+    text-decoration: underline;
+}
+
+.contact__icon {
+    margin-right: 10px;
+    color: #6c757d;
+    font-size: 1.1rem;
+    vertical-align: middle;
+}
