@@ -4,7 +4,7 @@
 
 Welcome to my personal portfolio! This website showcases my professional journey, technical skills, and personal projects. The goal of this portfolio is to provide an overview of my work and expertise as a Software Engineer. 
 
-You can view the live portfolio [here](https://sarasouza.github.io/).
+You can view the live portfolio [here](https://sarasouza18.github.io/sarasouza18/).
 
 ## **Purpose of this Repository**
 
@@ -22,7 +22,7 @@ The portfolio was developed using the following technologies:
 
 ## **How to View the Portfolio**
 
-To check out the portfolio, you can simply visit the [live website](https://sarasouza.github.io/).
+To check out the portfolio, you can simply visit the [live website](https://sarasouza18.github.io/sarasouza18/).
 
 ## **Code Structure**
 
