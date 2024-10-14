@@ -24,8 +24,6 @@ The portfolio was developed using the following technologies:
 
 To check out the portfolio, you can simply visit the [live website](https://sarasouza.github.io/).
 
-Alternatively, if you'd like to explore the code or run the project locally, follow the steps below.
-
 ## **Code Structure**
 
 The project is organized as follows:
