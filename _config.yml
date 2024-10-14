@@ -1,0 +1,20 @@
+title: "Sara Souza Portfolio"
+description: "My personal portfolio showcasing my skills, experience, and projects."
+baseurl: "/sarasouza.github.io" 
+url: "https://sarasouza.github.io"
+
+theme: jekyll-theme-primer 
+
+exclude:
+  - assets/css/*.scss
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+
+plugins:
+  - jekyll-feed 
+  - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
