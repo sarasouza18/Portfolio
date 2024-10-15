@@ -118,8 +118,20 @@ export const personalProjects = [
     },
     {
         id: 4,
-        name: 'sarasouza.github.io',
-        link: 'https://github.com/sarasouza18/sarasouza.github.io',
+        name: 'CartLoom',
+        link: 'https://github.com/sarasouza18/CartLoom',
+        description: 'CartLoom is a robust, scalable e-commerce backend system designed to handle high-volume order processing and real-time data synchronization with Shopify.'
+    },
+    {
+        id: 5,
+        name: 'Invoicely',
+        link: 'https://github.com/sarasouza18/Invoicely',
+        description: 'Invoicely is a serverless application designed to process invoices (PDFs or images) uploaded to AWS S3. It extracts important data like CNPJ, total value, and items using AWS Textract, stores the extracted information in DynamoDB, and notifies the user upon success or failure via SNS.'
+    },
+    {
+        id: 6,
+        name: 'Portfolio',
+        link: 'https://github.com/sarasouza18/Portfolio',
         description: 'Personal portfolio website hosted on GitHub Pages, showcasing my work and projects.'
     }
 ];
