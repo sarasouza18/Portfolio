@@ -2,7 +2,7 @@ export const experiences = [
     {
         id: 1,
         title: 'Software Engineer',
-        company: 'Atlas Tecnologia',
+        company: 'Atlas Technologies',
         period: '2022 - Present',
         description: 'Led the development of backend systems, reviewed code, and mentored junior developers. Improved code quality by 20% and expanded test coverage by 85%. Integrated payment gateways (Aarin, Paymee, Safe2pay), increasing Pix payments by 80%.'
     },
