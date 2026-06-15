@@ -1,9 +1,13 @@
 export const introContent = {
     description: `
-        I'm a Software Engineer with over 7 years of experience in designing scalable backend systems, RESTful APIs, and microservices architecture. Throughout my career, I have successfully optimized payment integrations and driven performance improvements in various e-commerce platforms. 
+        Senior Backend Engineer specializing in Distributed Systems, AWS, OpenSearch, and Data Platforms, with over 8 years of experience building scalable backend services and cloud-native applications.
 
-        I'm skilled in PHP (Laravel, Symfony), JavaScript, and proficient with cloud platforms like AWS, as well as containerization tools such as Docker and Kubernetes. My expertise includes enhancing code quality and system scalability, which has led to significant improvements in operational efficiency and business growth for the companies I’ve worked with.
+        I have designed and operated large-scale data pipelines, search platforms, payment infrastructures, analytics systems, and event-driven architectures across startups, consulting environments, and international organizations.
 
-        I’m passionate about leveraging DevOps practices to streamline deployment pipelines and enhance system reliability. I thrive on creating high-quality solutions that solve complex challenges, and I’m always eager to learn and adopt new technologies that drive innovation in the development process.
+        My technical expertise includes AWS, OpenSearch, PostgreSQL, DynamoDB, Redis, Python, FastAPI, Laravel, Docker, Kubernetes, and modern distributed system design. I am particularly passionate about solving complex engineering challenges, improving system reliability, and building platforms that scale efficiently under high workloads.
+
+        Throughout my career, I have also acted as a technical consultant, mentor, and conference speaker, helping engineering teams improve architecture, code quality, operational excellence, and production reliability.
+
+        Currently pursuing a Master's Degree in Software Engineering, researching scalable software architectures, distributed systems, intelligent caching, and search technologies.
     `,
 };
